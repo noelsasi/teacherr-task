@@ -1,0 +1,17 @@
+$breakpoints: (
+  small: 320px,
+  medium: 640px,
+  large: 980px,
+  xlarge: 1024px
+);
+
+@mixin breakpoint($size) {
+  $breakpoint-value: map-get($breakpoints, $size);
+
+  @media screen and (min-width: $breakpoint-value) {
+    @content;
+  }
+}
+
+/* voilet : #5A0EA6 */
+/* pink : #B53383 */

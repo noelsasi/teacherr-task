@@ -1,0 +1,19 @@
+.s4 {
+  background-color: #ddd;
+
+  .content-holder {
+    h3 {
+      color: #088aa4;
+    }
+    padding: 2rem;
+    @include breakpoint(large) {
+      padding: 7rem;
+    }
+  }
+
+  .left,
+  .right {
+    padding: 1rem;
+    text-align: justify;
+  }
+}

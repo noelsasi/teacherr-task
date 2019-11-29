@@ -1,0 +1,25 @@
+.s3 {
+  .left {
+    display: grid;
+    place-content: center;
+    background-color: #5a0ea6;
+    color: white;
+    font-size: 5rem;
+    height: 50vh;
+    @include breakpoint(large) {
+      height: auto;
+    }
+  }
+
+  .middle {
+    img {
+      width: 100%;
+    }
+  }
+
+  .right {
+    img {
+      width: 100%;
+    }
+  }
+}
